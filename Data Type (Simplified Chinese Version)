@@ -1,0 +1,12 @@
+integer_a = 1  # 将整型数据1赋值给名为integer_a的变量
+float_b = 3.1415  # 将浮点型数据3.1415赋值给名为float_b的变量
+string_c = '76134.234'  # 将字符串型数据76134.234赋值给名为string_c的变量
+complex_d = 4+5j  # 将复数型数据4+5j赋值给名为complex_d的变量
+
+'''
+使用print()函数打印输出变量以及其对应的数据类型
+'''
+print(integer_a, type(integer_a))
+print(float_b, type(float_b))
+print(string_c, type(string_c))
+print(complex_d, type(complex_d))
