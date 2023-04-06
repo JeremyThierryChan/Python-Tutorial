@@ -1,0 +1,36 @@
+integer_1 = 10
+float_1 = 3.1415
+string_1 = 178
+string_2 = 2.71828
+
+
+'''
+integer <-> float
+'''
+integer_a = 10  # 将整形数值10赋值给变量integer_a
+float_a = float(integer_a)  # 将利用float()函数将integer_a转换为浮点型数据并赋值给变量float_a
+
+float_b = 3.1415
+integer_b = int(float_b)
+
+print(integer_a, type(integer_a))
+print(float_a, type(float_a))
+print(integer_b, type(integer_b))
+print(float_b, type(float_b))
+
+'''
+integer, float <-> string
+'''
+integer_c = 178
+float_c = 2.71828
+string_c1 = str(integer_c)
+string_c2 = str(float_c)
+
+print(string_c1, type(string_c1))
+print(string_c2, type(string_c2))
+
+'''
+tuple <-> list
+'''
+
+tuple_a = 
