@@ -52,7 +52,7 @@ bool_4 = 0
 # bool()，将其他类型的数据转换为布尔型
 
 
-'''将其他类型数据转换为整型'''
+'''使用int()函数将其他类型数据转换为整型'''
 float2integer_1 = int(float_1)
 float2integer_2 = int(float_2)
 float2integer_3 = int(float_3)
@@ -68,7 +68,7 @@ bool2integer_2 = int(bool_2)
 bool2integer_3 = int(bool_3)
 bool2integer_4 = int(bool_4)
 
-'''将其他类型数据转换为浮点型'''
+'''使用float()函数将其他类型数据转换为浮点型'''
 integer2float = float(integer_1)
 
 string2float_1 = float(string_1)
@@ -86,7 +86,7 @@ bool2float_2 = float(bool_2)
 bool2float_3 = float(bool_3)
 bool2float_4 = float(bool_4)
 
-'''将其他类型数据转换为字符串型'''
+'''使用string()函数将其他类型数据转换为字符串型'''
 integer2string_1 = str(integer_1)
 integer2string_2 = str(integer_2)
 
@@ -114,7 +114,7 @@ dictionary2string_1 = str(dictionary_1)
 dictionary2string_2 = str(dictionary_2)
 dictionary2string_3 = str(dictionary_3)
 
-'''将其他类型数据转换为复数型'''
+'''使用complex()函数将其他类型数据转换为复数型'''
 integer2complex_1 = complex(integer_1, integer_2)
 integer2complex_2 = complex(integer_1)
 integer2complex_3 = complex(0, integer_1)
@@ -129,7 +129,7 @@ string2complex_1 = complex(string_5)
 bool2complex_1 = complex(bool_1, bool_2)
 bool2complex_1 = complex(bool_1, bool_3)
 
-'''将其他类型数据转换为元组型'''
+'''使用tuple()函数将其他类型数据转换为元组型'''
 integer2tuple_1 = (integer_1, integer_2)
 float2tuple_1 = (float_1, float_2, float_3)
 string2tuple_1 = (string_1, string_2, string_3, string_4, string_5)
@@ -145,7 +145,7 @@ dictionary2tuple_2 = tuple(dictionary_2)
 dictionary2tuple_3 = tuple(dictionary_3)
 bool2tuple_1 = (bool_1, bool_2, bool_3)
 
-'''将其他类型数据转换为列表型'''
+'''使用list()函数将其他类型数据转换为列表型'''
 integer2list_1 = [integer_1, integer_2]
 float2list_1 = [float_1, float_2, float_3]
 string2list_1 = [string_1, string_2, string_3, string_4, string_5]
@@ -161,7 +161,7 @@ dictionary2list_2 = list(dictionary_2)
 dictionary2list_3 = list(dictionary_3)
 bool2list_1 = [bool_1, bool_2, bool_3]
 
-'''将其他类型数据转换为集合型'''
+'''使用set()函数将其他类型数据转换为集合型'''
 integer2set_1 = {integer_1, integer_2}
 float2set_1 = {float_1, float_2, float_3}
 string2set_1 = {string_1, string_2, string_3, string_4, string_5}
@@ -178,9 +178,9 @@ dictionary2set_3 = set(dictionary_3)
 bool2set_1 = {bool_1, bool_2, bool_3}
 
 '''将其他类型数据转换为字典型'''
-# 字典型数据不可直接转换，详见专属介绍
+# 字典型数据不可直接转换，详见专属介绍  
 
-'''将其他类型数据转换为布尔型'''
+'''使用bool()函数将其他类型数据转换为布尔型'''
 integer_a = 1
 integer_b = 0
 float_a = 1.0
